@@ -1,0 +1,17 @@
+full_html_code = """<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MiniTube</title>
+</head>
+<body>
+  <h1>MiniTube - YouTube-like App</h1>
+  <p>Your full HTML content will go here (placeholder).</p>
+</body>
+</html>
+"""
+from pathlib import Path
+html_file_path = Path("/mnt/data/index.html")
+html_file_path.write_text(full_html_code, encoding="utf-8")
+html_file_path
